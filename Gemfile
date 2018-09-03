@@ -49,6 +49,13 @@ group :development, :test do
   gem 'sqlite3'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  # Test RSpec
+  gem 'shoulda-matchers'
+  gem 'rspec-rails'
+  gem 'factory_girl_rails', "~>4.0"
+  gem 'valid_email'
+  # Pretty Style
+  gem 'rubocop', require: false
 end
 
 group :development do
